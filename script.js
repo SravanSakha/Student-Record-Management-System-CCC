@@ -4,6 +4,8 @@ const DEFAULT_PIN = "1234";
 const pinInput = document.getElementById("adminPin");
 const loginBtn = document.getElementById("btnLogin");
 const msg = document.getElementById("message");
+window.location.href = "srms.html";
+
 
 
 loginBtn.onclick = () => {
